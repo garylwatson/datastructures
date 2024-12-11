@@ -28,6 +28,7 @@ class ArrayList : public IList
         ArrayList();
         ArrayList(int size);
         ~ArrayList();
+        void print();
         int size() override;
         int get(int i) override;
         bool set(int i, int x) override;
